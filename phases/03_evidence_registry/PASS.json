@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "phase": "03_evidence_registry",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T17:52:38+08:00",
+  "approved_candidate_commit": "4bf5846c3505d01a22cabb1072d684939f81dadd",
+  "candidate_file": "phases/03_evidence_registry/PASS_CANDIDATE.json",
+  "independent_review": {
+    "source_record_validation": "pass_3_of_3",
+    "unit_and_cli_suite": "pass_22_of_22",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "The registry supports framing and metric definitions only, not EviGate outcome claims.",
+    "The literature scan is bounded and is not a systematic review.",
+    "Formal runs remain closed."
+  ],
+  "next_phase": "04_baseline",
+  "next_phase_allowed": true
+}

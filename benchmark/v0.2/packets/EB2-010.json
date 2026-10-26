@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-010",
+  "family": "run_provenance",
+  "inputs": {
+    "run_record": {
+      "run_id": "RUN-010",
+      "config": "configs/a.json",
+      "environment_lock": "requirements.lock",
+      "commit": "abc123"
+    },
+    "draft_result": "Measured rate is 0.75."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

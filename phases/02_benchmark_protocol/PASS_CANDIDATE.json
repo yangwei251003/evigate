@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "phase": "02_benchmark_protocol",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "unit_and_cli_suite": "pass_22_of_22",
+    "project_state_validation": "pass",
+    "skill_structure_validation": "pass",
+    "git_diff_check": "pass"
+  },
+  "protocol_file": "protocol/RESEARCH_PROTOCOL.md",
+  "configuration_file": "configs/evigatebench-v0.1.json",
+  "delivered_artifacts": [
+    "benchmark/packets/",
+    "benchmark/answer-keys/",
+    "src/evigate/benchmark_models.py",
+    "src/evigate/benchmark_validation.py",
+    "src/evigate/benchmark_io.py",
+    "src/evigate/scoring.py",
+    "protocol/RESEARCH_PROTOCOL.md"
+  ],
+  "qualifications": [
+    "The corpus is a synthetic pilot and does not establish real-world research-agent reliability.",
+    "No formal execution, external model rollout, or quantitative finding was produced.",
+    "Formal runs remain closed; the next phase is evidence registry verification only."
+  ],
+  "next_phase": "03_evidence_registry",
+  "next_phase_allowed": false
+}

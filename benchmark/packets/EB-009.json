@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "EB-009",
+  "family": "run_provenance",
+  "primary_defect": "run_provenance",
+  "inputs": {
+    "scenario": "Proposed result has no registered configuration identifier.",
+    "defect_token": "MISSING-CONFIG",
+    "source_register": [
+      {
+        "source_id": "SRC-001",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

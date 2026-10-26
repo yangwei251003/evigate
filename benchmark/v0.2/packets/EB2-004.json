@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-004",
+  "family": "citation_authenticity",
+  "inputs": {
+    "draft_claim": "The review supports the claim [SRC-004].",
+    "source_register": [
+      {
+        "source_id": "SRC-004",
+        "status": "discovery_only"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

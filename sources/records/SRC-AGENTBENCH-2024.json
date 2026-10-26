@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC-AGENTBENCH-2024",
+  "citation_key": "liu2024agentbench",
+  "status": "verified",
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "authors": "Liu et al.",
+  "year": 2024,
+  "stable_identifier": "ICLR 2024",
+  "locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+  "verification_method": "official ICLR proceedings metadata and abstract inspection",
+  "verified_at": "2026-07-22T17:49:58+08:00",
+  "support_scope": [
+    "AgentBench presents eight interactive evaluation environments for LLM agents.",
+    "AgentBench frames reasoning and decision-making as evaluation targets for LLM agents."
+  ],
+  "limitations_for_use": [
+    "AgentBench does not validate scientific evidence provenance or EviGateBench.",
+    "It may support broad benchmark motivation only."
+  ]
+}

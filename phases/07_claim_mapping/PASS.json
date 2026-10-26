@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "07_claim_mapping",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T18:30:56+08:00",
+  "approved_candidate_commit": "838e3fbe30ede614460ab35629e6a705c80185fd",
+  "candidate_file": "phases/07_claim_mapping/PASS_CANDIDATE.json",
+  "independent_review": {
+    "source_record_validation": "pass_1_of_1",
+    "claim_link_validation": "pass_6_of_6",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "Quantitative claims are restricted to deterministic reference-controller simulation.",
+    "No claim supports general LLM-agent or real-world research reliability.",
+    "The v0.1 corpus remains excluded because it leaked answer information."
+  ],
+  "next_phase": "08_draft_and_review",
+  "next_phase_allowed": true
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project_id": "evigate-research",
+  "artifact_classification": "audited technical-report draft with deterministic reference-controller simulation",
+  "manuscript": "paper/EviGateBench_v0.2.md",
+  "manuscript_integrity_report": "paper/INTEGRITY_REPORT.md",
+  "self_review": "paper/SELF_REVIEW.md",
+  "protocol": "protocol/RESEARCH_PROTOCOL_V0.2.md",
+  "configuration": "configs/evigatebench-v0.2.json",
+  "task_packets": "benchmark/v0.2/packets/",
+  "answer_keys": "benchmark/v0.2/answer-keys/",
+  "formal_manifests": "runs/formal-v0.2/manifests/",
+  "raw_records": "runs/formal-v0.2/raw/",
+  "analysis": "analysis/formal-v0.2/summary.json",
+  "claim_evidence_graph": "claims/CLAIM_EVIDENCE_GRAPH.json",
+  "source_registry": "sources/records/",
+  "bibliography": "sources/VERIFIED_SOURCES.bib",
+  "environment_lock": "requirements.lock",
+  "formal_raw_commit": "8ae315c5533b19a20ccbf3da4a1c2e25e3b5d6e6",
+  "analysis_commit": "b6c13067bd53e4afb7ffd25e948233daa95f5b9e",
+  "v0_1_status": "preserved_and_excluded_due_to_answer_leakage",
+  "submission_status": "not_submission_ready",
+  "reproduction_command": "python -m pytest -q",
+  "limitations": [
+    "Results are deterministic scripted-controller simulation outcomes, not LLM-agent measurements.",
+    "The synthetic corpus has no independent human or external-model evaluation.",
+    "No statistical inference or general reliability claim is supported."
+  ]
+}

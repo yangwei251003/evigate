@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-002",
+  "family": "citation_authenticity",
+  "inputs": {
+    "draft_claim": "The result follows DOI-10.9999/MISMATCH.",
+    "source_register": [
+      {
+        "source_id": "SRC-002",
+        "stable_identifier": "DOI-10.1111/OTHER",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "05_formal_execution",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T18:24:54+08:00",
+  "approved_candidate_commit": "26b79e5a77a627a912cd4c90e5f79c4311288ff6",
+  "candidate_file": "phases/05_formal_execution/PASS_CANDIDATE.json",
+  "independent_review": {
+    "formal_manifest_validation": "pass_48_of_48",
+    "raw_provenance_validation": "pass_48_of_48",
+    "unit_and_cli_suite": "pass_29_of_29",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "All runs are deterministic scripted-controller simulations, not LLM-agent rollouts.",
+    "Only later analysis may derive aggregate values from the committed raw records.",
+    "v0.1 remains excluded because it leaked answer information."
+  ],
+  "next_phase": "06_analysis",
+  "next_phase_allowed": true
+}

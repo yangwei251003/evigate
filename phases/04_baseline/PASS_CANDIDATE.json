@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "phase": "04_baseline",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "unit_and_cli_suite": "pass_28_of_28",
+    "project_state_validation": "pass",
+    "skill_structure_validation": "pass",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "src/evigate/reference_controller.py",
+    "tests/test_reference_controller.py",
+    "phases/04_baseline/BASELINE_REPORT.md",
+    "benchmark/v0.2/"
+  ],
+  "qualifications": [
+    "The controllers are scripted harness fixtures, not independent agents or model rollouts.",
+    "The smoke rates are not formal results and may not be reported as LLM-agent findings.",
+    "Formal execution remains closed."
+  ],
+  "next_phase": "05_formal_execution",
+  "next_phase_allowed": false
+}

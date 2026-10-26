@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "phase": "01_skill_mvp",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "批准",
+  "approval_condition": "User approved the MVP acceptance candidate after its automated checks passed.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T17:05:16+08:00",
+  "approved_candidate_commit": "1c94273a74cc874bee9412994f1bb36c5e2292b9",
+  "candidate_file": "phases/01_skill_mvp/PASS_CANDIDATE.json",
+  "independent_review": {
+    "unit_and_cli_suite": "pass_12_of_12",
+    "skill_structure_validation": "pass",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "The MVP validates research artifacts but does not execute arbitrary LLM-generated code.",
+    "No benchmark result, verified literature corpus, or manuscript finding was produced in phase 01.",
+    "Phase 02 must preregister its benchmark protocol before formal runs begin."
+  ],
+  "next_phase": "02_benchmark_protocol",
+  "next_phase_allowed": true
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "phase": "06_analysis",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "raw_record_count": "pass_48_of_48",
+    "derived_summary_provenance": "pass",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "analysis/formal-v0.2/summary.json",
+    "analysis/formal-v0.2/FORMAL_ANALYSIS.md",
+    "phases/06_analysis/PHASE_REPORT.md"
+  ],
+  "qualifications": [
+    "All figures describe a deterministic reference-controller simulation.",
+    "No hypothesis test, uncertainty estimate, or general performance claim is valid.",
+    "The v0.1 corpus remains excluded because it leaked answer information."
+  ],
+  "next_phase": "07_claim_mapping",
+  "next_phase_allowed": false
+}

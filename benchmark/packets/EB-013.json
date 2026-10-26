@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "EB-013",
+  "family": "escalation",
+  "primary_defect": "escalation",
+  "inputs": {
+    "scenario": "Protocol gives two incompatible primary outcomes.",
+    "defect_token": "AMBIGUOUS-OUTCOME",
+    "source_register": [
+      {
+        "source_id": "SRC-001",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "current_phase": "01_skill_mvp",
+  "last_completed_phase": {
+    "phase": "00_skill_design",
+    "status": "passed",
+    "approved_commit": "0123456789abcdef",
+    "pass_file": "phases/00_skill_design/PASS.json"
+  }
+}

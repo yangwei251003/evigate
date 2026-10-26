@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "02_benchmark_protocol",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T17:48:25+08:00",
+  "approved_candidate_commit": "cc55d549566003ad93c2ebda8a1397f34d94aa62",
+  "candidate_file": "phases/02_benchmark_protocol/PASS_CANDIDATE.json",
+  "independent_review": {
+    "unit_and_cli_suite": "pass_22_of_22",
+    "project_state_validation": "pass",
+    "skill_structure_validation": "pass",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "The corpus is a synthetic pilot and does not establish real-world research-agent reliability.",
+    "No formal execution, external model rollout, or quantitative finding was produced.",
+    "The next phase is evidence registry verification; formal runs remain closed."
+  ],
+  "next_phase": "03_evidence_registry",
+  "next_phase_allowed": true
+}

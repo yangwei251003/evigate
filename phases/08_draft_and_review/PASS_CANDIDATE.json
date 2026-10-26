@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "08_draft_and_review",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "citation_key_check": "pass_3_of_3",
+    "claim_evidence_check": "pass_6_of_6",
+    "quantitative_table_check": "pass",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "paper/EviGateBench_v0.2.md",
+    "paper/INTEGRITY_REPORT.md",
+    "paper/SELF_REVIEW.md",
+    "phases/08_draft_and_review/PHASE_REPORT.md"
+  ],
+  "qualifications": [
+    "The manuscript is an audited technical-report draft, not a submission-ready empirical paper.",
+    "All reported results are deterministic reference-controller simulation outcomes.",
+    "The v0.1 corpus remains preserved and excluded because it leaked answer information."
+  ],
+  "next_phase": "09_package_and_archive",
+  "next_phase_allowed": false
+}

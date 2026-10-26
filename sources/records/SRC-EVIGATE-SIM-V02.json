@@ -1,0 +1,19 @@
+{
+  "source_id": "SRC-EVIGATE-SIM-V02",
+  "citation_key": "evigateSimV02",
+  "status": "verified",
+  "title": "EviGateBench v0.2 deterministic reference-controller raw records",
+  "year": 2026,
+  "stable_identifier": "ANALYSIS-FORMAL-V0.2-001",
+  "locator": "runs/formal-v0.2/raw/",
+  "verification_method": "48 committed raw records cross-checked against preregistered manifests and derived summary",
+  "verified_at": "2026-07-22T18:28:13+08:00",
+  "support_scope": [
+    "The three condition-specific rates in the deterministic v0.2 reference-controller simulation.",
+    "The simulation classification and its 48 contributing Run IDs."
+  ],
+  "limitations_for_use": [
+    "This internal record is not external scholarly evidence.",
+    "It supports only explicitly labeled scripted-controller simulation claims."
+  ]
+}

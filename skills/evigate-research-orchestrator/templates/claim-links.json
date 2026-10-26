@@ -1,0 +1,8 @@
+[
+  {
+    "claim_id": "CLAIM-001",
+    "kind": "measured",
+    "source_ids": ["SRC-001"],
+    "run_ids": ["RUN-001"]
+  }
+]

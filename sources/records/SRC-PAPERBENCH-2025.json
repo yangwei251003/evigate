@@ -1,0 +1,21 @@
+{
+  "source_id": "SRC-PAPERBENCH-2025",
+  "citation_key": "starace2025paperbench",
+  "status": "verified",
+  "title": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+  "authors": "Starace et al.",
+  "year": 2025,
+  "stable_identifier": "arXiv:2504.01848",
+  "locator": "https://arxiv.org/abs/2504.01848",
+  "verification_method": "arXiv record cross-checked with the OpenAI project page",
+  "verified_at": "2026-07-22T17:49:58+08:00",
+  "support_scope": [
+    "PaperBench evaluates end-to-end replication of 20 ICML 2024 Spotlight and Oral papers.",
+    "PaperBench reports 8,316 individually gradable tasks.",
+    "The published evaluated agent score cited in this project is 21.0%, when explicitly attributed to PaperBench."
+  ],
+  "limitations_for_use": [
+    "PaperBench does not evaluate EviGate.",
+    "Its replication score must not be compared numerically with EviGateBench pilot outcomes."
+  ]
+}

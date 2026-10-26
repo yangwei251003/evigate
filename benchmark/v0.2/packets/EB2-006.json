@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-006",
+  "family": "claim_support",
+  "inputs": {
+    "claim_id": "CLM-006",
+    "source_excerpt": "The result was measured on one synthetic packet family.",
+    "draft_claim": "The result generalizes across scientific disciplines."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

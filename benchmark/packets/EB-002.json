@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "EB-002",
+  "family": "citation_authenticity",
+  "primary_defect": "citation_authenticity",
+  "inputs": {
+    "scenario": "Draft identifier resolves to a different source title.",
+    "defect_token": "DOI-10.9999/MISMATCH",
+    "source_register": [
+      {
+        "source_id": "SRC-001",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "phase": "03_evidence_registry",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "source_record_validation": "pass_3_of_3",
+    "unit_and_cli_suite": "pass_22_of_22",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "sources/records/SRC-PAPERBENCH-2025.json",
+    "sources/records/SRC-HILBENCH-2026.json",
+    "sources/records/SRC-AGENTBENCH-2024.json",
+    "sources/VERIFIED_SOURCES.bib",
+    "sources/SEARCH_LOG.md"
+  ],
+  "qualifications": [
+    "The registry supports framing and metric definitions only, not EviGate outcome claims.",
+    "The literature scan is bounded and is not a systematic review.",
+    "Formal runs remain closed."
+  ],
+  "next_phase": "04_baseline",
+  "next_phase_allowed": false
+}

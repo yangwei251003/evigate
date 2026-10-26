@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-003",
+  "family": "citation_authenticity",
+  "inputs": {
+    "draft_claim": "The evidence remains valid [SRC-003].",
+    "source_register": [
+      {
+        "source_id": "SRC-003",
+        "status": "withdrawn"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

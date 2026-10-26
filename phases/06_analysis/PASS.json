@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "06_analysis",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T18:28:13+08:00",
+  "approved_candidate_commit": "2a4488d1ffde74a6fcb88a1ddd59ba6d97c9099e",
+  "candidate_file": "phases/06_analysis/PASS_CANDIDATE.json",
+  "independent_review": {
+    "raw_record_count": "pass_48_of_48",
+    "derived_summary_provenance": "pass",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "All figures describe a deterministic reference-controller simulation.",
+    "No hypothesis test, uncertainty estimate, or general performance claim is valid.",
+    "The v0.1 corpus remains excluded because it leaked answer information."
+  ],
+  "next_phase": "07_claim_mapping",
+  "next_phase_allowed": true
+}

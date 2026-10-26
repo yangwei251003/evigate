@@ -1,0 +1,21 @@
+{
+  "source_id": "SRC-HILBENCH-2026",
+  "citation_key": "trinh2026hilbench",
+  "status": "verified",
+  "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+  "authors": "Trinh et al.",
+  "year": 2026,
+  "stable_identifier": "arXiv:2604.09408",
+  "locator": "https://arxiv.org/abs/2604.09408",
+  "verification_method": "arXiv v4 abstract and metadata inspection",
+  "verified_at": "2026-07-22T17:49:58+08:00",
+  "support_scope": [
+    "HiL-Bench defines selective escalation as knowing when to ask for help under blockers.",
+    "HiL-Bench defines Ask-F1 as the harmonic mean of question precision and blocker recall.",
+    "HiL-Bench uses missing information, ambiguity, and contradiction as blocker classes."
+  ],
+  "limitations_for_use": [
+    "HiL-Bench evaluates software-engineering and text-to-SQL domains, not research-workflow reliability.",
+    "EviGateBench adapts the escalation concept and does not claim metric comparability."
+  ]
+}

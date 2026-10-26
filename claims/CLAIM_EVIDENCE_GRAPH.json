@@ -1,0 +1,107 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "kind": "qualitative",
+    "text": "PaperBench evaluates AI agents on replication tasks derived from 20 ICML 2024 Spotlight and Oral papers.",
+    "source_ids": [
+      "SRC-PAPERBENCH-2025"
+    ],
+    "run_ids": []
+  },
+  {
+    "claim_id": "CLM-002",
+    "kind": "qualitative",
+    "text": "HiL-Bench defines Ask-F1 as the harmonic mean of question precision and blocker recall.",
+    "source_ids": [
+      "SRC-HILBENCH-2026"
+    ],
+    "run_ids": []
+  },
+  {
+    "claim_id": "CLM-003",
+    "kind": "qualitative",
+    "text": "AgentBench presents eight interactive environments for evaluating agent reasoning and decision making.",
+    "source_ids": [
+      "SRC-AGENTBENCH-2024"
+    ],
+    "run_ids": []
+  },
+  {
+    "claim_id": "CLM-004",
+    "kind": "simulated",
+    "text": "In the deterministic EviGate reference-controller simulation, all 16 v0.2 EviGate runs detected and contained their seeded issue without unsafe continuation.",
+    "source_ids": [
+      "SRC-EVIGATE-SIM-V02"
+    ],
+    "run_ids": [
+      "RUN-EB2-001-EVIGATE",
+      "RUN-EB2-002-EVIGATE",
+      "RUN-EB2-003-EVIGATE",
+      "RUN-EB2-004-EVIGATE",
+      "RUN-EB2-005-EVIGATE",
+      "RUN-EB2-006-EVIGATE",
+      "RUN-EB2-007-EVIGATE",
+      "RUN-EB2-008-EVIGATE",
+      "RUN-EB2-009-EVIGATE",
+      "RUN-EB2-010-EVIGATE",
+      "RUN-EB2-011-EVIGATE",
+      "RUN-EB2-012-EVIGATE",
+      "RUN-EB2-013-EVIGATE",
+      "RUN-EB2-014-EVIGATE",
+      "RUN-EB2-015-EVIGATE",
+      "RUN-EB2-016-EVIGATE"
+    ]
+  },
+  {
+    "claim_id": "CLM-005",
+    "kind": "simulated",
+    "text": "In the deterministic direct reference-controller simulation, all 16 v0.2 direct runs continued unsafely without detecting or containing the seeded issue.",
+    "source_ids": [
+      "SRC-EVIGATE-SIM-V02"
+    ],
+    "run_ids": [
+      "RUN-EB2-001-DIRECT",
+      "RUN-EB2-002-DIRECT",
+      "RUN-EB2-003-DIRECT",
+      "RUN-EB2-004-DIRECT",
+      "RUN-EB2-005-DIRECT",
+      "RUN-EB2-006-DIRECT",
+      "RUN-EB2-007-DIRECT",
+      "RUN-EB2-008-DIRECT",
+      "RUN-EB2-009-DIRECT",
+      "RUN-EB2-010-DIRECT",
+      "RUN-EB2-011-DIRECT",
+      "RUN-EB2-012-DIRECT",
+      "RUN-EB2-013-DIRECT",
+      "RUN-EB2-014-DIRECT",
+      "RUN-EB2-015-DIRECT",
+      "RUN-EB2-016-DIRECT"
+    ]
+  },
+  {
+    "claim_id": "CLM-006",
+    "kind": "simulated",
+    "text": "In the deterministic linear reference-controller simulation, all 16 v0.2 linear runs detected but did not contain the seeded issue and continued unsafely.",
+    "source_ids": [
+      "SRC-EVIGATE-SIM-V02"
+    ],
+    "run_ids": [
+      "RUN-EB2-001-LINEAR",
+      "RUN-EB2-002-LINEAR",
+      "RUN-EB2-003-LINEAR",
+      "RUN-EB2-004-LINEAR",
+      "RUN-EB2-005-LINEAR",
+      "RUN-EB2-006-LINEAR",
+      "RUN-EB2-007-LINEAR",
+      "RUN-EB2-008-LINEAR",
+      "RUN-EB2-009-LINEAR",
+      "RUN-EB2-010-LINEAR",
+      "RUN-EB2-011-LINEAR",
+      "RUN-EB2-012-LINEAR",
+      "RUN-EB2-013-LINEAR",
+      "RUN-EB2-014-LINEAR",
+      "RUN-EB2-015-LINEAR",
+      "RUN-EB2-016-LINEAR"
+    ]
+  }
+]

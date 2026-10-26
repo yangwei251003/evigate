@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-007",
+  "family": "claim_support",
+  "inputs": {
+    "claim_id": "CLM-007",
+    "source_excerpt": "The pilot is limited by a scripted comparator and no independent agent rollout.",
+    "draft_claim": "The pilot demonstrates robust research-agent reliability."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

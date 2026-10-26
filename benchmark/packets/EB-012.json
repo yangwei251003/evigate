@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "EB-012",
+  "family": "run_provenance",
+  "primary_defect": "run_provenance",
+  "inputs": {
+    "scenario": "Draft result cites a Run ID different from the manifest.",
+    "defect_token": "CONFLICTING-RUN-ID",
+    "source_register": [
+      {
+        "source_id": "SRC-001",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

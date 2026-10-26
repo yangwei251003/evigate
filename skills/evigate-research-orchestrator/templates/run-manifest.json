@@ -1,0 +1,7 @@
+{
+  "run_id": "RUN-001",
+  "config": "configs/benchmark-v1.json",
+  "seed": 20260722,
+  "environment_lock": "requirements.lock",
+  "commit": "0123456789abcdef"
+}

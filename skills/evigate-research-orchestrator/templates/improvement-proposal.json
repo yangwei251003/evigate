@@ -1,0 +1,12 @@
+{
+  "proposal_id": "IMP-001",
+  "status": "proposed",
+  "observed_artifact_id": "RUN-001",
+  "affected_component": "skills/evigate-research-orchestrator/SKILL.md",
+  "expected_benefit": "Reduce unregistered-result attempts.",
+  "risk": "May make task intake more restrictive.",
+  "validation": "Add a failing regression test and run the full suite.",
+  "touches_frozen_material": false,
+  "amendment_id": null,
+  "approval": null
+}

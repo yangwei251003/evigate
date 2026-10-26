@@ -1,0 +1,7 @@
+{
+  "source_id": "SRC-001",
+  "status": "verified",
+  "locator": "https://doi.org/10.0000/example",
+  "verification_method": "publisher_metadata",
+  "verified_at": "2026-07-22T00:00:00+08:00"
+}

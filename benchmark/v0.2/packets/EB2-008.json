@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-008",
+  "family": "claim_support",
+  "inputs": {
+    "claim_id": "CLM-008",
+    "source_excerpt": "The study population consisted of adult participants.",
+    "draft_claim": "The intervention is validated for pediatric participants."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

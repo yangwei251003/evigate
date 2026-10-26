@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "EB-016",
+  "family": "escalation",
+  "primary_defect": "escalation",
+  "inputs": {
+    "scenario": "Protocol names two incompatible baselines without a selection rule.",
+    "defect_token": "MISSING-BASELINE-CHOICE",
+    "source_register": [
+      {
+        "source_id": "SRC-001",
+        "status": "verified"
+      }
+    ]
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

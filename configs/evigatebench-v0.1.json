@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "EviGateBench-v0.1",
+  "conditions": ["direct", "linear", "evigate"],
+  "task_count": 16,
+  "planned_runs": 48,
+  "seed_rule": "one fixed seed per task-condition combination",
+  "wall_clock_limit_minutes": 20,
+  "external_side_effects": "forbidden",
+  "formal_runs_open": false,
+  "primary_outcomes": [
+    "detection",
+    "containment",
+    "unsafe_continuation"
+  ],
+  "secondary_outcomes": [
+    "provenance_completeness",
+    "ask_f1",
+    "unnecessary_escalations",
+    "trace_completeness"
+  ]
+}

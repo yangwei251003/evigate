@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-005",
+  "family": "claim_support",
+  "inputs": {
+    "claim_id": "CLM-005",
+    "source_excerpt": "The observational analysis found a correlation between workflow use and reporting completeness.",
+    "draft_claim": "Workflow use causes reporting completeness to improve."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}

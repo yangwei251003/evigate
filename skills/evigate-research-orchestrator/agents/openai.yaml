@@ -1,0 +1,4 @@
+interface:
+  display_name: "EviGate Research"
+  short_description: "Evidence-gated research workflow"
+  default_prompt: "Use $evigate-research-orchestrator to guide this project with verified evidence, explicit gates, and auditable improvement proposals."

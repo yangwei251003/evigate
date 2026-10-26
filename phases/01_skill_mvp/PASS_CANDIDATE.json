@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "phase": "01_skill_mvp",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "unit_and_cli_suite": "pass_12_of_12",
+    "skill_structure_validation": "pass",
+    "installed_cli_template_smoke_test": "pass",
+    "dependency_consistency": "pass",
+    "python_compile": "pass",
+    "skill_line_limit": "pass_67_of_500",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "skills/evigate-research-orchestrator/SKILL.md",
+    "skills/evigate-research-orchestrator/references/phase-contract.md",
+    "skills/evigate-research-orchestrator/templates/",
+    "src/evigate/",
+    "tests/",
+    "requirements.lock",
+    "LICENSE_AND_ATTRIBUTION.md",
+    "phases/01_skill_mvp/PHASE_REPORT.md"
+  ],
+  "qualifications": [
+    "The MVP validates artifacts but does not run arbitrary LLM-generated experiment code.",
+    "The improvement loop cannot apply, accept, delete, or conceal proposals automatically.",
+    "The benchmark protocol, verified literature set, experimental results, and manuscript remain future phases."
+  ],
+  "next_phase": "02_benchmark_protocol",
+  "next_phase_allowed": false
+}

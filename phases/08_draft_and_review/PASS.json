@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "phase": "08_draft_and_review",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T18:36:45+08:00",
+  "approved_candidate_commit": "3974a6d63c9b1018bd1aed86704cd7bac1fb137c",
+  "candidate_file": "phases/08_draft_and_review/PASS_CANDIDATE.json",
+  "independent_review": {
+    "citation_key_check": "pass_3_of_3",
+    "claim_evidence_check": "pass_6_of_6",
+    "quantitative_table_check": "pass",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "The manuscript is an audited technical-report draft, not a submission-ready empirical paper.",
+    "All reported results are deterministic reference-controller simulation outcomes.",
+    "The v0.1 corpus remains preserved and excluded because it leaked answer information."
+  ],
+  "next_phase": "09_package_and_archive",
+  "next_phase_allowed": true
+}

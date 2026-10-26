@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "04_baseline",
+  "status": "passed",
+  "human_approved": true,
+  "approver": "user",
+  "approval_source": "Codex task conversation",
+  "approval_text": "可以，后续减少人工审核批准，都按你的建议来，直接进行到底",
+  "approval_condition": "User authorized continuous progress under the repository's mandatory evidence and phase controls.",
+  "approval_condition_result": "satisfied",
+  "approved_at": "2026-07-22T18:04:13+08:00",
+  "approved_candidate_commit": "ab93f37dd4fe8f2e7715447c4bc4264069e88009",
+  "candidate_file": "phases/04_baseline/PASS_CANDIDATE.json",
+  "independent_review": {
+    "unit_and_cli_suite": "pass_28_of_28",
+    "project_state_validation": "pass",
+    "skill_structure_validation": "pass",
+    "git_diff_check": "pass"
+  },
+  "accepted_qualifications": [
+    "The controllers are scripted harness fixtures, not independent agents or model rollouts.",
+    "The smoke rates are not formal results and may not be reported as LLM-agent findings.",
+    "Only v0.2 may be used for formal reference-controller execution."
+  ],
+  "next_phase": "05_formal_execution",
+  "next_phase_allowed": true
+}

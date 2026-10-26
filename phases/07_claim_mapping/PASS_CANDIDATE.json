@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "phase": "07_claim_mapping",
+  "status": "awaiting_human_approval",
+  "candidate_ref": "HEAD_AT_APPROVAL",
+  "human_approved": false,
+  "automated_checks": {
+    "source_record_validation": "pass_1_of_1",
+    "claim_link_validation": "pass_6_of_6",
+    "unit_and_cli_suite": "pass_30_of_30",
+    "git_diff_check": "pass"
+  },
+  "delivered_artifacts": [
+    "claims/CLAIM_EVIDENCE_GRAPH.json",
+    "sources/records/SRC-EVIGATE-SIM-V02.json",
+    "phases/07_claim_mapping/PHASE_REPORT.md"
+  ],
+  "qualifications": [
+    "Quantitative claims are restricted to deterministic reference-controller simulation.",
+    "No claim supports general LLM-agent or real-world research reliability.",
+    "The v0.1 corpus remains excluded because it leaked answer information."
+  ],
+  "next_phase": "08_draft_and_review",
+  "next_phase_allowed": false
+}

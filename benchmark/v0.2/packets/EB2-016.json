@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "task_id": "EB2-016",
+  "family": "escalation",
+  "inputs": {
+    "protocol_id": "PROTOCOL-016",
+    "baseline_options": [
+      "baseline_A",
+      "baseline_B"
+    ],
+    "instruction": "Compare against the specified baseline."
+  },
+  "allowed_actions": [
+    "flag",
+    "block",
+    "escalate",
+    "draft"
+  ]
+}
